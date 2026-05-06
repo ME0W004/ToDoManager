@@ -2,25 +2,61 @@
   "menu_title": "=== Task Manager Menu ===",
   "menu_options": [
     "1. Show all tasks",
-    "2. Add new task",
-    "3. Delete task",
-    "4. Mark task as done",
-    "5. Mark task as not done",
-    "6. Exit"
+    "2. Show completed tasks",
+    "3. Show pending tasks",
+    "4. Show overdue tasks",
+    "5. Show high priority tasks",
+    "6. Add new task",
+    "7. Delete task",
+    "8. Search tasks",
+    "9. Mark task as done",
+    "10. Mark task as not done",
+    "11. Toggle task status",
+    "12. Update task priority",
+    "13. Update task due date",
+    "14. Mark all tasks as done",
+    "15. Delete all completed tasks",
+    "16. Delete ALL tasks (warning!)",
+    "17. Show task statistics",
+    "18. Exit"
   ],
-  "prompt_choice": "Enter your choice (1-6): ",
+  "prompt_choice": "Enter your choice (1-18): ",
+  
   "add_title": "Task title: ",
   "add_description": "Description (optional): ",
   "add_due_date": "Due date (e.g., 2025-07-10) (optional): ",
+  "add_priority": "Priority (low/medium/high) (default: medium): ",
+  
   "task_exists": "⚠️ A task with this title already exists.",
   "task_added": "✅ Task '{title}' added.",
   "task_deleted": "✅ Task '{title}' deleted.",
   "task_not_found": "⚠️ No task found with title '{title}'.",
+  
   "mark_done": "✅ Task '{title}' marked as done.",
   "mark_undone": "✅ Task '{title}' marked as not done.",
+  "task_toggled": "🔄 Task '{title}' status toggled.",
+  
   "input_delete": "Enter title of task to delete: ",
   "input_done": "Enter title of task to mark as done: ",
   "input_undone": "Enter title of task to mark as not done: ",
+  "input_toggle": "Enter title of task to toggle: ",
+  "input_search": "Keyword to search: ",
+  "input_priority": "New priority (low/medium/high): ",
+  "input_due_date_new": "New due date (e.g., 2025-07-10) (Enter to remove): ",
+  
+  "priority_updated": "✅ Task '{title}' priority changed to '{priority}'.",
+  "due_date_updated": "✅ Task '{title}' due date changed to '{due_date}'.",
+  "due_date_removed": "✅ Task '{title}' due date removed.",
+  "invalid_priority": "⚠️ Invalid priority. Must be low, medium, or high.",
+  
+  "all_tasks_done": "✅ All {count} pending tasks marked as done.",
+  "all_completed_deleted": "✅ {count} completed tasks deleted.",
+  "all_tasks_deleted": "⚠️ All {count} tasks deleted!",
+  "confirm_delete_all": "⚠️ WARNING! Are you sure you want to delete ALL tasks? (yes/no): ",
+  
+  "search_no_results": "🔍 No tasks found matching '{keyword}'.",
+  "search_results": "🔍 Search results for '{keyword}':",
+  
   "exit_msg": "Exiting program. Goodbye! 👋",
-  "invalid_choice": "⚠️ Invalid option. Please enter a number between 1 and 6."
+  "invalid_choice": "⚠️ Invalid option. Please enter a number between 1 and 18."
 }
